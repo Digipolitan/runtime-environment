@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:RuntimeEnvironment.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Samples/RuntimeEnvironmentSample-iOS/RuntimeEnvironmentSample-iOS.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Samples/RuntimeEnvironmentSample-watchOS/RuntimeEnvironmentSample-watchOS.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Samples/RuntimeEnvironmentSample-tvOS/RuntimeEnvironmentSample-tvOS.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Samples/RuntimeEnvironmentSample-OSX/RuntimeEnvironmentSample-OSX.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>
