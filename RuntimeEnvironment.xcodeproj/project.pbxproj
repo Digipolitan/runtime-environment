@@ -1135,7 +1135,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8607F831007571BD46B8873D /* Pods-Tests-RuntimeEnvironmentTests-iOS.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 582762VK3P;
 				INFOPLIST_FILE = Tests/Info.plist;
@@ -1149,7 +1148,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9A038C4362E281B0E3CE480A /* Pods-Tests-RuntimeEnvironmentTests-iOS.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 582762VK3P;
 				INFOPLIST_FILE = Tests/Info.plist;
@@ -1254,7 +1252,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 07F29B02ADB455EE7C9649B2 /* Pods-Tests-RuntimeEnvironmentTests-tvOS.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 582762VK3P;
 				INFOPLIST_FILE = Tests/Info.plist;
@@ -1270,7 +1267,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F9E7D71583DE2B29E0FF4F83 /* Pods-Tests-RuntimeEnvironmentTests-tvOS.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 582762VK3P;
 				INFOPLIST_FILE = Tests/Info.plist;
@@ -1333,7 +1329,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 73EE25B966D5459745517E5B /* Pods-Tests-RuntimeEnvironmentTests-OSX.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 582762VK3P;
@@ -1350,7 +1345,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 91F8F70CAEAE0008D3C61174 /* Pods-Tests-RuntimeEnvironmentTests-OSX.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 582762VK3P;
