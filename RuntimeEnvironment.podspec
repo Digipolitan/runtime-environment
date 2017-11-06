@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name = "RuntimeEnvironment"
-s.version = "1.0.1"
+s.version = "1.0.2"
 s.summary = "Manage environment variable at runtime with environment mode set in Info.plist"
 s.homepage = "https://github.com/Digipolitan/runtime-environment"
 s.authors = "Digipolitan"
