@@ -5,6 +5,7 @@ RuntimeEnvironment
 [![Build Status](https://travis-ci.org/Digipolitan/runtime-environment.svg?branch=master)](https://travis-ci.org/Digipolitan/runtime-environment)
 [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/RuntimeEnvironment.svg)](https://img.shields.io/cocoapods/v/RuntimeEnvironment.svg)
 [![Carthage Compatible](https://img.shields.io/badge/carthage-compatible-brightgreen.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![Swift Package Manager Compatible](https://img.shields.io/badge/swift%20package%20manager-compatible-brightgreen.svg?style=flat)](https://swift.org/package-manager/)
 [![Platform](https://img.shields.io/cocoapods/p/RuntimeEnvironment.svg?style=flat)](http://cocoadocs.org/docsets/RuntimeEnvironment)
 [![Twitter](https://img.shields.io/badge/twitter-@Digipolitan-blue.svg?style=flat)](http://twitter.com/Digipolitan)
 
