@@ -12,14 +12,16 @@
 		82C79FE2912FF15CDBA88D53 /* Pods_Frameworks_RuntimeEnvironment_OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4F6A95BEEB7A2F3CC43B1DF /* Pods_Frameworks_RuntimeEnvironment_OSX.framework */; };
 		85208446E4AD8641C29FCC25 /* Pods_Frameworks_RuntimeEnvironment_watchOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32483335F1F05E08FA3F13B4 /* Pods_Frameworks_RuntimeEnvironment_watchOS.framework */; };
 		A3169DBA1DE05E8300BABAFD /* RuntimeEnvironment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3169DB01DE05E8300BABAFD /* RuntimeEnvironment.framework */; };
-		A3169DD61DE0631900BABAFD /* RuntimeEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3169DD41DE0631900BABAFD /* RuntimeEnvironment.swift */; };
-		A3169DE81DE06FD100BABAFD /* RuntimeEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3169DD41DE0631900BABAFD /* RuntimeEnvironment.swift */; };
 		A3169DF81DE0718900BABAFD /* RuntimeEnvironment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3169DEF1DE0718900BABAFD /* RuntimeEnvironment.framework */; };
 		A3169E151DE072C800BABAFD /* RuntimeEnvironment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3169E0C1DE072C700BABAFD /* RuntimeEnvironment.framework */; };
-		A3169E761DE083D900BABAFD /* RuntimeEnvironment.h in Headers */ = {isa = PBXBuildFile; fileRef = A3169E751DE083D900BABAFD /* RuntimeEnvironment.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A3169E771DE083D900BABAFD /* RuntimeEnvironment.h in Headers */ = {isa = PBXBuildFile; fileRef = A3169E751DE083D900BABAFD /* RuntimeEnvironment.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A3169E781DE083D900BABAFD /* RuntimeEnvironment.h in Headers */ = {isa = PBXBuildFile; fileRef = A3169E751DE083D900BABAFD /* RuntimeEnvironment.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A3169E791DE083D900BABAFD /* RuntimeEnvironment.h in Headers */ = {isa = PBXBuildFile; fileRef = A3169E751DE083D900BABAFD /* RuntimeEnvironment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A370DF281FB0DF7E000FEDED /* RuntimeEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A370DF261FB0DF7E000FEDED /* RuntimeEnvironment.swift */; };
+		A370DF291FB0DF7E000FEDED /* RuntimeEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A370DF261FB0DF7E000FEDED /* RuntimeEnvironment.swift */; };
+		A370DF2A1FB0DF7E000FEDED /* RuntimeEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A370DF261FB0DF7E000FEDED /* RuntimeEnvironment.swift */; };
+		A370DF2B1FB0DF7E000FEDED /* RuntimeEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A370DF261FB0DF7E000FEDED /* RuntimeEnvironment.swift */; };
+		A370DF2C1FB0DF7E000FEDED /* RuntimeEnvironment.h in Headers */ = {isa = PBXBuildFile; fileRef = A370DF271FB0DF7E000FEDED /* RuntimeEnvironment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A370DF2D1FB0DF7E000FEDED /* RuntimeEnvironment.h in Headers */ = {isa = PBXBuildFile; fileRef = A370DF271FB0DF7E000FEDED /* RuntimeEnvironment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A370DF2E1FB0DF7E000FEDED /* RuntimeEnvironment.h in Headers */ = {isa = PBXBuildFile; fileRef = A370DF271FB0DF7E000FEDED /* RuntimeEnvironment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A370DF2F1FB0DF7E000FEDED /* RuntimeEnvironment.h in Headers */ = {isa = PBXBuildFile; fileRef = A370DF271FB0DF7E000FEDED /* RuntimeEnvironment.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A38EF2CA1DECF97000637484 /* RuntimeEnvironmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38EF2C71DECF97000637484 /* RuntimeEnvironmentTests.swift */; };
 		A38EF2CB1DECF97000637484 /* RuntimeEnvironmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38EF2C71DECF97000637484 /* RuntimeEnvironmentTests.swift */; };
 		A38EF2CC1DECF97000637484 /* RuntimeEnvironmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38EF2C71DECF97000637484 /* RuntimeEnvironmentTests.swift */; };
@@ -29,8 +31,6 @@
 		A3DEBEA61F7EA1A4001EBA72 /* sample.prod.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3DEBEA51F7EA1A4001EBA72 /* sample.prod.plist */; };
 		A3DEBEA71F7EA1A4001EBA72 /* sample.prod.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3DEBEA51F7EA1A4001EBA72 /* sample.prod.plist */; };
 		A3DEBEA81F7EA1A4001EBA72 /* sample.prod.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3DEBEA51F7EA1A4001EBA72 /* sample.prod.plist */; };
-		A3EAC50C1DE5FCBA00E4AA5E /* RuntimeEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3169DD41DE0631900BABAFD /* RuntimeEnvironment.swift */; };
-		A3EAC50D1DE5FCBB00E4AA5E /* RuntimeEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3169DD41DE0631900BABAFD /* RuntimeEnvironment.swift */; };
 		A49A9CE2573B4857DCAAE1C6 /* Pods_Frameworks_RuntimeEnvironment_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ABA4963D378F96AE50D68F5 /* Pods_Frameworks_RuntimeEnvironment_iOS.framework */; };
 		CC99596DBB4EB37EA5937D8C /* Pods_Frameworks_RuntimeEnvironment_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF32DC10732711891E28B3B9 /* Pods_Frameworks_RuntimeEnvironment_tvOS.framework */; };
 		D0E6DA2CD7D08AA1D48A4556 /* Pods_Tests_RuntimeEnvironmentTests_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9E9DAAE5B1BE55C3AEC5B39 /* Pods_Tests_RuntimeEnvironmentTests_tvOS.framework */; };
@@ -78,13 +78,13 @@
 		A3169DB91DE05E8300BABAFD /* RuntimeEnvironmentTests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RuntimeEnvironmentTests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3169DCC1DE0629100BABAFD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3169DD11DE062A000BABAFD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A3169DD41DE0631900BABAFD /* RuntimeEnvironment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RuntimeEnvironment.swift; sourceTree = "<group>"; };
 		A3169DDE1DE06EF400BABAFD /* RuntimeEnvironment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RuntimeEnvironment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3169DEF1DE0718900BABAFD /* RuntimeEnvironment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RuntimeEnvironment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3169DF71DE0718900BABAFD /* RuntimeEnvironmentTests-tvOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RuntimeEnvironmentTests-tvOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3169E0C1DE072C700BABAFD /* RuntimeEnvironment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RuntimeEnvironment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3169E141DE072C800BABAFD /* RuntimeEnvironmentTests-OSX.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RuntimeEnvironmentTests-OSX.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3169E751DE083D900BABAFD /* RuntimeEnvironment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuntimeEnvironment.h; sourceTree = "<group>"; };
+		A370DF261FB0DF7E000FEDED /* RuntimeEnvironment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RuntimeEnvironment.swift; sourceTree = "<group>"; };
+		A370DF271FB0DF7E000FEDED /* RuntimeEnvironment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuntimeEnvironment.h; sourceTree = "<group>"; };
 		A38EF2C71DECF97000637484 /* RuntimeEnvironmentTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RuntimeEnvironmentTests.swift; sourceTree = "<group>"; };
 		A3DEBEA11F7E9ED3001EBA72 /* sample.prod.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = sample.prod.json; sourceTree = "<group>"; };
 		A3DEBEA51F7EA1A4001EBA72 /* sample.prod.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = sample.prod.plist; sourceTree = "<group>"; };
@@ -224,8 +224,7 @@
 		A3169DCA1DE0629100BABAFD /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				A3169DD41DE0631900BABAFD /* RuntimeEnvironment.swift */,
-				A3169E751DE083D900BABAFD /* RuntimeEnvironment.h */,
+				A370DF251FB0DF7E000FEDED /* RuntimeEnvironment */,
 				A3169DCC1DE0629100BABAFD /* Info.plist */,
 			);
 			path = Sources;
@@ -238,6 +237,15 @@
 				A3169DD11DE062A000BABAFD /* Info.plist */,
 			);
 			path = Tests;
+			sourceTree = "<group>";
+		};
+		A370DF251FB0DF7E000FEDED /* RuntimeEnvironment */ = {
+			isa = PBXGroup;
+			children = (
+				A370DF261FB0DF7E000FEDED /* RuntimeEnvironment.swift */,
+				A370DF271FB0DF7E000FEDED /* RuntimeEnvironment.h */,
+			);
+			path = RuntimeEnvironment;
 			sourceTree = "<group>";
 		};
 		A38EF2C61DECF97000637484 /* RuntimeEnvironmentTests */ = {
@@ -257,7 +265,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3169E781DE083D900BABAFD /* RuntimeEnvironment.h in Headers */,
+				A370DF2E1FB0DF7E000FEDED /* RuntimeEnvironment.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +273,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3169E791DE083D900BABAFD /* RuntimeEnvironment.h in Headers */,
+				A370DF2F1FB0DF7E000FEDED /* RuntimeEnvironment.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +281,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3169E761DE083D900BABAFD /* RuntimeEnvironment.h in Headers */,
+				A370DF2C1FB0DF7E000FEDED /* RuntimeEnvironment.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +289,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3169E771DE083D900BABAFD /* RuntimeEnvironment.h in Headers */,
+				A370DF2D1FB0DF7E000FEDED /* RuntimeEnvironment.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -907,7 +915,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3169DD61DE0631900BABAFD /* RuntimeEnvironment.swift in Sources */,
+				A370DF281FB0DF7E000FEDED /* RuntimeEnvironment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -923,7 +931,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3169DE81DE06FD100BABAFD /* RuntimeEnvironment.swift in Sources */,
+				A370DF291FB0DF7E000FEDED /* RuntimeEnvironment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -931,7 +939,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3EAC50D1DE5FCBB00E4AA5E /* RuntimeEnvironment.swift in Sources */,
+				A370DF2A1FB0DF7E000FEDED /* RuntimeEnvironment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -947,7 +955,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3EAC50C1DE5FCBA00E4AA5E /* RuntimeEnvironment.swift in Sources */,
+				A370DF2B1FB0DF7E000FEDED /* RuntimeEnvironment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1027,6 +1035,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -1080,6 +1089,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -1135,6 +1145,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8607F831007571BD46B8873D /* Pods-Tests-RuntimeEnvironmentTests-iOS.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 582762VK3P;
 				INFOPLIST_FILE = Tests/Info.plist;
@@ -1148,6 +1159,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9A038C4362E281B0E3CE480A /* Pods-Tests-RuntimeEnvironmentTests-iOS.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 582762VK3P;
 				INFOPLIST_FILE = Tests/Info.plist;
@@ -1252,6 +1264,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 07F29B02ADB455EE7C9649B2 /* Pods-Tests-RuntimeEnvironmentTests-tvOS.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 582762VK3P;
 				INFOPLIST_FILE = Tests/Info.plist;
@@ -1267,6 +1280,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F9E7D71583DE2B29E0FF4F83 /* Pods-Tests-RuntimeEnvironmentTests-tvOS.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 582762VK3P;
 				INFOPLIST_FILE = Tests/Info.plist;
@@ -1329,6 +1343,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 73EE25B966D5459745517E5B /* Pods-Tests-RuntimeEnvironmentTests-OSX.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 582762VK3P;
@@ -1345,6 +1360,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 91F8F70CAEAE0008D3C61174 /* Pods-Tests-RuntimeEnvironmentTests-OSX.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 582762VK3P;

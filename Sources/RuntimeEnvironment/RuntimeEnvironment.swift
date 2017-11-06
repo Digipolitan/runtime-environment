@@ -1,15 +1,9 @@
-/**
- *
- */
 public enum RuntimeEnvironmentError: Error {
     case fileNotFound(name: String)
     case missingEnvironmentMode
     case invalidContent
 }
 
-/**
- *
- */
 open class RuntimeEnvironment {
 
     public static let infoKey = "Environment"
