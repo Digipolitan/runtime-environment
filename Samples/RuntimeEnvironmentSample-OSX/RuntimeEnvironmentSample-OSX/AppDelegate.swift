@@ -15,8 +15,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     @IBOutlet weak var window: NSWindow!
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        let t = TemplateClass()
-        print(t)
+        
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
