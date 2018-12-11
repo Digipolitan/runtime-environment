@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name = "RuntimeEnvironment"
-s.version = "1.0.2"
+s.version = "1.0.3"
 s.summary = "Manage environment variable at runtime with environment mode set in Info.plist"
 s.homepage = "https://github.com/Digipolitan/runtime-environment"
 s.authors = "Digipolitan"
@@ -11,5 +11,5 @@ s.ios.deployment_target = '8.0'
 s.watchos.deployment_target = '2.0'
 s.tvos.deployment_target = '9.0'
 s.osx.deployment_target = '10.10'
-s.requires_arc = true
+s.swift_version = '4.2'
 end

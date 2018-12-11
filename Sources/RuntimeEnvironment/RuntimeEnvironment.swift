@@ -1,5 +1,7 @@
 public enum RuntimeEnvironmentError: Error {
+    // swiftlint:disable identifier_name
     case fileNotFound(name: String)
+    // swiftlint:enable identifier_name
     case missingEnvironmentMode
     case invalidContent
 }

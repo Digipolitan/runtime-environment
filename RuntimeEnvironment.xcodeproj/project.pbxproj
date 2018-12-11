@@ -306,7 +306,6 @@
 				A3169DAE1DE05E8300BABAFD /* Resources */,
 				A3169DD81DE0654400BABAFD /* Swiftlint */,
 				A3169E631DE0804300BABAFD /* Headers */,
-				CF3F8CBC41EABC527C2CDF5D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -325,8 +324,6 @@
 				A3169DB51DE05E8300BABAFD /* Sources */,
 				A3169DB61DE05E8300BABAFD /* Frameworks */,
 				A3169DB71DE05E8300BABAFD /* Resources */,
-				A0D0D73F43FEE5D0E0C15F30 /* [CP] Embed Pods Frameworks */,
-				A404A69981F3151BE2427F89 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -348,7 +345,6 @@
 				A3169DDC1DE06EF400BABAFD /* Resources */,
 				A3169DE71DE06FB300BABAFD /* Swiftlint */,
 				A3169E651DE0804D00BABAFD /* Headers */,
-				1CB4EC098E9BE1EF1001CDA5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -369,7 +365,6 @@
 				A3169DED1DE0718900BABAFD /* Resources */,
 				A3169E061DE0727A00BABAFD /* Swiftlint */,
 				A3169E281DE07B0500BABAFD /* Headers */,
-				7AD40E5E4C5C0CEF6A23ADD7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -388,8 +383,6 @@
 				A3169DF31DE0718900BABAFD /* Sources */,
 				A3169DF41DE0718900BABAFD /* Frameworks */,
 				A3169DF51DE0718900BABAFD /* Resources */,
-				05B8B1E01B90DCC974ED17F4 /* [CP] Embed Pods Frameworks */,
-				320BAA1572D54F7F8938644C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -411,7 +404,6 @@
 				A3169E0A1DE072C700BABAFD /* Resources */,
 				A3169E231DE0732D00BABAFD /* Swiftlint */,
 				A3169E2A1DE07B3E00BABAFD /* Headers */,
-				1D15DE198CCB7D8EA8DB2264 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -430,8 +422,6 @@
 				A3169E101DE072C800BABAFD /* Sources */,
 				A3169E111DE072C800BABAFD /* Frameworks */,
 				A3169E121DE072C800BABAFD /* Resources */,
-				F75D811ECD244579AD3DC593 /* [CP] Embed Pods Frameworks */,
-				2EC3E7942F53965D5F283E67 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -450,7 +440,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = Digipolitan;
 				TargetAttributes = {
 					A3169DAF1DE05E8300BABAFD = {
@@ -468,28 +458,31 @@
 					A3169DDD1DE06EF400BABAFD = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 582762VK3P;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 					};
 					A3169DEE1DE0718900BABAFD = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 582762VK3P;
-						LastSwiftMigration = 0810;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 					};
 					A3169DF61DE0718900BABAFD = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 582762VK3P;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 					};
 					A3169E0B1DE072C700BABAFD = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 582762VK3P;
-						LastSwiftMigration = 0810;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 					};
 					A3169E131DE072C800BABAFD = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 582762VK3P;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -594,81 +587,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		05B8B1E01B90DCC974ED17F4 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests-RuntimeEnvironmentTests-tvOS/Pods-Tests-RuntimeEnvironmentTests-tvOS-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		1CB4EC098E9BE1EF1001CDA5 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Frameworks-RuntimeEnvironment-watchOS/Pods-Frameworks-RuntimeEnvironment-watchOS-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		1D15DE198CCB7D8EA8DB2264 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Frameworks-RuntimeEnvironment-OSX/Pods-Frameworks-RuntimeEnvironment-OSX-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2EC3E7942F53965D5F283E67 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests-RuntimeEnvironmentTests-OSX/Pods-Tests-RuntimeEnvironmentTests-OSX-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		320BAA1572D54F7F8938644C /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests-RuntimeEnvironmentTests-tvOS/Pods-Tests-RuntimeEnvironmentTests-tvOS-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		41A3C74066FF487FE77D9203 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -723,21 +641,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7AD40E5E4C5C0CEF6A23ADD7 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Frameworks-RuntimeEnvironment-tvOS/Pods-Frameworks-RuntimeEnvironment-tvOS-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		7F39D4CDEF217EED096268B4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -754,21 +657,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A0D0D73F43FEE5D0E0C15F30 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests-RuntimeEnvironmentTests-iOS/Pods-Tests-RuntimeEnvironmentTests-iOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A3169DD81DE0654400BABAFD /* Swiftlint */ = {
@@ -827,36 +715,6 @@
 			shellPath = /bin/sh;
 			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
 		};
-		A404A69981F3151BE2427F89 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests-RuntimeEnvironmentTests-iOS/Pods-Tests-RuntimeEnvironmentTests-iOS-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CF3F8CBC41EABC527C2CDF5D /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Frameworks-RuntimeEnvironment-iOS/Pods-Frameworks-RuntimeEnvironment-iOS-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		D443A2F88F951DA6F2DFF3AC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -891,21 +749,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F75D811ECD244579AD3DC593 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests-RuntimeEnvironmentTests-OSX/Pods-Tests-RuntimeEnvironmentTests-OSX-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1000,6 +843,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -1007,6 +851,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -1041,7 +886,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1060,6 +905,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -1067,6 +913,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -1093,7 +940,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
