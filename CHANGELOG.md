@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [1.0.3](https://github.com/Digipolitan/runtime-environment/releases/tag/v1.0.3)
+
+fix swift 4.2
+
+---
+
 ## [1.0.2](https://github.com/Digipolitan/runtime-environment/releases/tag/v1.0.2)
 
 update xcodeproj, travis, readme
