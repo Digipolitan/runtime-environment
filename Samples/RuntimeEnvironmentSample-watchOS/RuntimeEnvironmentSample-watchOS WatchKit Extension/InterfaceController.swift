@@ -12,8 +12,11 @@ import RuntimeEnvironment
 
 class InterfaceController: WKInterfaceController {
 
+    @IBOutlet var modeLabel: WKInterfaceLabel!
+
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
+        self.modeLabel.setText(RuntimeEnvironment.shared.mode.rawValue)
     }
 
     override func willActivate() {
