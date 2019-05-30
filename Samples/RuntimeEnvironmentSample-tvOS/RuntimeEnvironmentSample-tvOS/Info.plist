@@ -26,5 +26,7 @@
 	</array>
 	<key>UIUserInterfaceStyle</key>
 	<string>Automatic</string>
+	<key>Environment</key>
+	<string>${ENVIRONMENT}</string>
 </dict>
 </plist>

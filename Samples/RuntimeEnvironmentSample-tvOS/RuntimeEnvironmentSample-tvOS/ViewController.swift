@@ -11,7 +11,10 @@ import RuntimeEnvironment
 
 class ViewController: UIViewController {
 
+    @IBOutlet var modeLabel: UILabel!
+
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.modeLabel.text = RuntimeEnvironment.shared.mode.rawValue
     }
 }

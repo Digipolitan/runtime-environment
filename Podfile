@@ -4,7 +4,7 @@ workspace 'RuntimeEnvironment.xcworkspace'
 abstract_target 'Frameworks' do
 	use_frameworks!
 	target 'RuntimeEnvironment-iOS' do
-		platform :ios, '8.0'
+		platform :ios, '9.0'
 	end
 
 	target 'RuntimeEnvironment-watchOS' do
@@ -24,7 +24,7 @@ end
 abstract_target 'Tests' do
 	use_frameworks!
 	target 'RuntimeEnvironmentTests-iOS' do
-		platform :ios, '8.0'
+		platform :ios, '9.0'
 	end
 
 	target 'RuntimeEnvironmentTests-tvOS' do
@@ -41,13 +41,13 @@ abstract_target 'Samples' do
 	use_frameworks!
 	target 'RuntimeEnvironmentSample-iOS' do
 		project 'Samples/RuntimeEnvironmentSample-iOS/RuntimeEnvironmentSample-iOS'
-		platform :ios, '8.0'
+		platform :ios, '9.0'
 	end
 
 	abstract_target 'watchOS' do
 		project 'Samples/RuntimeEnvironmentSample-watchOS/RuntimeEnvironmentSample-watchOS'
 		target 'RuntimeEnvironmentSample-watchOS' do
-			platform :ios, '8.0'
+			platform :ios, '9.0'
 		end
 
 		target 'RuntimeEnvironmentSample-watchOS WatchKit Extension' do

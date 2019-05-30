@@ -7,11 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51FE2933229FFB4000EED0EC /* RuntimeEnvironment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51FE2932229FFB4000EED0EC /* RuntimeEnvironment.framework */; };
 		A30D64B41E0D7CD800A3CE45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30D64B31E0D7CD800A3CE45 /* AppDelegate.swift */; };
 		A30D64B61E0D7CD800A3CE45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A30D64B51E0D7CD800A3CE45 /* Assets.xcassets */; };
 		A30D64B91E0D7CD800A3CE45 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A30D64B71E0D7CD800A3CE45 /* MainMenu.xib */; };
-		A30D64C11E0D7CF700A3CE45 /* RuntimeEnvironment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30D64C01E0D7CF700A3CE45 /* RuntimeEnvironment.framework */; };
-		A30D64C21E0D7CF700A3CE45 /* RuntimeEnvironment.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A30D64C01E0D7CF700A3CE45 /* RuntimeEnvironment.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A55E37BB540429E8464D9315 /* Pods_Samples_RuntimeEnvironmentSample_OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4965DB276D23BAA7CB03846B /* Pods_Samples_RuntimeEnvironmentSample_OSX.framework */; };
 /* End PBXBuildFile section */
 
@@ -22,7 +21,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				A30D64C21E0D7CF700A3CE45 /* RuntimeEnvironment.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -32,6 +30,8 @@
 /* Begin PBXFileReference section */
 		0124FDEBD7CE6A8BE8EAAC53 /* Pods-Samples-RuntimeEnvironmentSample-OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Samples-RuntimeEnvironmentSample-OSX.debug.xcconfig"; path = "../../Pods/Target Support Files/Pods-Samples-RuntimeEnvironmentSample-OSX/Pods-Samples-RuntimeEnvironmentSample-OSX.debug.xcconfig"; sourceTree = "<group>"; };
 		4965DB276D23BAA7CB03846B /* Pods_Samples_RuntimeEnvironmentSample_OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Samples_RuntimeEnvironmentSample_OSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51FE28FA229FF46A00EED0EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MainMenu.strings; sourceTree = "<group>"; };
+		51FE2932229FFB4000EED0EC /* RuntimeEnvironment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RuntimeEnvironment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69D8B23B95151094B7B70291 /* Pods_RuntimeEnvironmentSample_RuntimeEnvironmentSample_OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RuntimeEnvironmentSample_RuntimeEnvironmentSample_OSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80ACE0C8A1B3AA8696C25C2C /* Pods-Samples-RuntimeEnvironmentSample-OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Samples-RuntimeEnvironmentSample-OSX.release.xcconfig"; path = "../../Pods/Target Support Files/Pods-Samples-RuntimeEnvironmentSample-OSX/Pods-Samples-RuntimeEnvironmentSample-OSX.release.xcconfig"; sourceTree = "<group>"; };
 		A30D64B01E0D7CD800A3CE45 /* RuntimeEnvironmentSample-OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RuntimeEnvironmentSample-OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,7 +39,6 @@
 		A30D64B51E0D7CD800A3CE45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A30D64B81E0D7CD800A3CE45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		A30D64BA1E0D7CD800A3CE45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A30D64C01E0D7CF700A3CE45 /* RuntimeEnvironment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RuntimeEnvironment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0D8C80BD94FA2E59421A73F /* Pods-RuntimeEnvironmentSample-RuntimeEnvironmentSample-OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RuntimeEnvironmentSample-RuntimeEnvironmentSample-OSX.release.xcconfig"; path = "../../Pods/Target Support Files/Pods-RuntimeEnvironmentSample-RuntimeEnvironmentSample-OSX/Pods-RuntimeEnvironmentSample-RuntimeEnvironmentSample-OSX.release.xcconfig"; sourceTree = "<group>"; };
 		EA55CC5F1F5FEA67845CE4A8 /* Pods-RuntimeEnvironmentSample-RuntimeEnvironmentSample-OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RuntimeEnvironmentSample-RuntimeEnvironmentSample-OSX.debug.xcconfig"; path = "../../Pods/Target Support Files/Pods-RuntimeEnvironmentSample-RuntimeEnvironmentSample-OSX/Pods-RuntimeEnvironmentSample-RuntimeEnvironmentSample-OSX.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -49,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A30D64C11E0D7CF700A3CE45 /* RuntimeEnvironment.framework in Frameworks */,
+				51FE2933229FFB4000EED0EC /* RuntimeEnvironment.framework in Frameworks */,
 				A55E37BB540429E8464D9315 /* Pods_Samples_RuntimeEnvironmentSample_OSX.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -89,7 +88,7 @@
 		A30D64C41E0D7CFC00A3CE45 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A30D64C01E0D7CF700A3CE45 /* RuntimeEnvironment.framework */,
+				51FE2932229FFB4000EED0EC /* RuntimeEnvironment.framework */,
 				69D8B23B95151094B7B70291 /* Pods_RuntimeEnvironmentSample_RuntimeEnvironmentSample_OSX.framework */,
 				4965DB276D23BAA7CB03846B /* Pods_Samples_RuntimeEnvironmentSample_OSX.framework */,
 			);
@@ -136,12 +135,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = Digipolitan;
 				TargetAttributes = {
 					A30D64AF1E0D7CD800A3CE45 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 582762VK3P;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -151,8 +151,8 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = A30D64A71E0D7CD800A3CE45;
 			productRefGroup = A30D64B11E0D7CD800A3CE45 /* Products */;
@@ -213,6 +213,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				A30D64B81E0D7CD800A3CE45 /* Base */,
+				51FE28FA229FF46A00EED0EC /* en */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -224,6 +225,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -255,6 +257,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENVIRONMENT = development;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -275,7 +278,7 @@
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -284,6 +287,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -315,6 +319,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENVIRONMENT = production;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -327,7 +332,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
