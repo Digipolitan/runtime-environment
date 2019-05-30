@@ -1,7 +1,7 @@
 RuntimeEnvironment
 =================================
 
-[![Swift Version](https://img.shields.io/badge/swift-4.2-orange.svg?style=flat)](https://developer.apple.com/swift/)
+[![Swift Version](https://img.shields.io/badge/swift-5.0-orange.svg?style=flat)](https://developer.apple.com/swift/)
 [![Build Status](https://travis-ci.org/Digipolitan/runtime-environment.svg?branch=master)](https://travis-ci.org/Digipolitan/runtime-environment)
 [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/RuntimeEnvironment.svg)](https://img.shields.io/cocoapods/v/RuntimeEnvironment.svg)
 [![Carthage Compatible](https://img.shields.io/badge/carthage-compatible-brightgreen.svg?style=flat)](https://github.com/Carthage/Carthage)

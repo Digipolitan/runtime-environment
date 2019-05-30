@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [1.0.4](https://github.com/Digipolitan/runtime-environment/releases/tag/v1.0.4)
+
+update swift 5
+add sample code
+
+---
+
 ## [1.0.3](https://github.com/Digipolitan/runtime-environment/releases/tag/v1.0.3)
 
 fix swift 4.2
